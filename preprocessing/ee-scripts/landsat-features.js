@@ -25,7 +25,7 @@ var visParams = {
   max: 3000,
   gamma: 1.4,
 };
-var geometry = ee.Geometry.Rectangle([20, 94, 20.2, 94.2]);
+var geometry = ee.Geometry.Rectangle([92.125, 8.74975, 101.25025, 28.625]); //these coordinates are for Myanmar, as being used for roads and waterways 
 Map.setCenter(114.0079, -26.0765, 9);
 Map.addLayer(dataset, visParams);
 
